@@ -54,8 +54,7 @@ section {padding-top: 1px;
        background: #FFFAFA;
 	   border-width: 1px;
 	   border-style: solid;
-	   border-color: black;
-	   border-radius: 10px;}
+	   border-color: black; border-radius: 10px;}
 aside {float:left;
       width: 10%;
 	  height: 100%;
