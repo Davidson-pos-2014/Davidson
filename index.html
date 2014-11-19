@@ -1,20 +1,22 @@
 ﻿<!DOCTYPE html> 
-<html>
+<html lang="pt-BR">
    <head>
-         <meta charset="UTF-8">
-		 <meta http-equiv="X-UA-Compatible" content="chrome=1">
-         <meta name="description" content="Davidson : Davidson">
-		 <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-         <title>Curriculo</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="C:\Users\Davi\Documents\GitHub\Davidson\stylesheets\stylesheet.css"/>
+        <title>Currículo_TESTE</title>
     </head>
     <body>
         <section>
 	        <aside>
-		        <h3>
-                </h3> 				
+		        <img src = "https://raw.githubusercontent.com/Davidson-pos-2014/Davidson/4ad11e80b2682dc9a2a6bdd98e393e3b1994ca50/FOTO.JPG"
+                     alt = "Smiley face" 
+                     height = "135"
+                     width = "115"
+                     align = "center"
+					 id = "idImg">
 		    </aside>
      	    <article class = "CPessoa">
-		        <h1 align = "center" onmousemove="foto()">DAVIDSON HENRIQUE GONTIJO</h1>
+		        <h1 align = "center" onmouseenter="Exibefoto()" onmouseout="Apagafoto()">DAVIDSON HENRIQUE GONTIJO</h1>
         		<p> 35 ANOS - BRASILEIRO - CASADO - HABILITÇÃO A-B <br>
 		         Rua: Flor do Oriente, 202 – Jardim Alvorada – CEP: <a href="https://www.google.com.br/maps/place/R.+Flor+do+Oriente,+202+-+Jardim+Alvorada,+Belo+Horizonte+-+MG,+30810-427/@-19.8957082,-43.9857475,11z/data=!4m7!1m4!3m3!1s0xa6912b4eeb7535:0xc47efe129c8b708f!2sR.+Flor+do+Oriente,+202+-+Jardim+Alvorada,+Belo+Horizonte+-+MG,+30810-427!3b1!3m1!1s0xa6912b4eeb7535:0xc47efe129c8b708f">30810-427</a> – BH/MG <br> 
 			     Tel. res. :<a href="tel:03134183088"> 031-3418-3088</a> - Tel. cel. : <a href="tel:03198278406"> 031-9827-8406</a> – e-mail: d.gon@ig.com.br </p>	 	
@@ -44,14 +46,18 @@
                 <li>Curso: Introdução em micro informática (MS DOS , WINDOWS 95 , WORD 6.0 e EXCEL 5.0 ).</li>
                 <li>Curso: Intervenção técnica em impressoras fiscais Daruma.</li>
                 <li>Curso: Manutenção em impressoras: matriciais, jato de tinta , laser color, laser mono e multifuncionais (marcas Epson, Lexmark e Hewllet Packard).</li>
-                <li>Curso: Práticas de Programação Delphi e Linguagem PL/SQL SQL Server e Oracle.</li> 
-		    </article>   
+                <li>Curso: Práticas de Programação Delphi e Linguagem PL/SQL SQL Server e Oracle.</li>
+                <p id="idTop"><a href="#">Votar para o topo da página</a></p> 				
+		    </article>
         </section>
     </body>
 </html>
 
 <script type="text/javascript">
-	function foto(){		
-		alert('Em breve a foto será exibida')
+	function Exibefoto(){	
+		document.getElementById("idImg").style.visibility="Visible"
+	}
+	function Apagafoto(){	
+		document.getElementById("idImg").style.visibility="Hidden"
 	}
 </script>
