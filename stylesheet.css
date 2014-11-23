@@ -26,17 +26,20 @@ blockquote, q {quotes: none;}
 blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
 table {border-collapse: collapse; border-spacing: 0;}	
     
-body, p, li, a{color: #000000; 
-             font-family: Times New Roman; 
-		     font-size: 14pt; 
-		     margin: 5px 20px;}
+body, p, li, h3{color: #000000; 
+              font-family: Times New Roman; 
+		      font-size: 14pt; 
+		      margin: 5px 20px;}
+a{font-family: Times New Roman; 
+  font-size: 14pt;
+  margin: 5px 20px;}		  
 li ~ p{line-height: 25px;}
 p{margin-left: 45px;}
 h1 + p{text-align: center;
       line-height: 20px;
 	  margin-left: 0px;}			
 h1, h2{font-weight: bold;
-       font-family: Britannic Bold;}
+      font-family: Britannic Bold;}
 h1{font-size: 24pt;
    margin: 20px 5px;}
 h2{font-size: 16pt;
@@ -45,6 +48,13 @@ h2{font-size: 16pt;
    border-top-color: #696969;
    border-top-style: solid;
    padding-top: 10px;}
+h3{font-size: 14pt;
+   border-bottom-width: 10px;
+   border-bottom-color: #696969;
+   border-bottom-style: solid;
+   margin: 0px 15px;
+   font:italic 14pt "Helvetica";
+   font-weight: bold;}   
 li + h2{margin-top: 1px;}
 section {padding-top: 1px;
        min-height: 100px;
@@ -55,18 +65,27 @@ section {padding-top: 1px;
 	   border-width: 1px;
 	   border-style: solid;
 	   border-color: black;
-	   border-radius: 10px;}
+	   border-radius: 10px;}	   
 aside {float:left;
       width: 10%;
 	  height: 100%;
       margin: 10px 0px 10px 10px;} 
 article {overflow:hidden;
-      width: 98%;
-      height: 50%;
-	  margin: 10px;}
+      width: 77%;
+      height: 75%;
+	  margin: 10px 0px 10px 10px;}
+	  /*não mexer*/
 article.CPessoa{height: 50%;
               width: 88%;
 			  margin: 10px 10px 10px 0px;}
+article.CCurriculo {height: 1170px;
+                 width: 20%;
+			     margin: 0px 15px 10px 0px;
+			     float:right;}
+article.CCurriculo, article.CDados, #idMini{border-width: 1px;
+	   			 			   			border-style: solid;
+	   			 			   			border-color: black;
+	   			 			   			border-radius: 10px;}			  
 li{padding-bottom: 10px;
   margin-left: 60px;}
 p + li{padding-bottom: 25px;}
@@ -74,7 +93,14 @@ p + li{padding-bottom: 25px;}
 	   border: 1px;
    	   border-color: black;
 	   border-style: solid;
-	   margin: 0px auto;
+	   margin: 10px auto;
 	   margin-top: 40px;
-	   width: 21%;
+	   width: 30%;
 	   border-radius: 10px;}
+select, #idLink{margin: 10px 10px 1px 10px;
+      			font-family: Times New Roman;
+	  			font-size: 14pt;
+	  			color: #8470FF;}
+#idMini{margin: 10px 10px 1px 10px;
+	  	font-size: 12pt;}
+div{margin: 1px 5px 5px 60px;}		
