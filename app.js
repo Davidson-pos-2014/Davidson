@@ -15,7 +15,6 @@ $(document).ready(function(){
         }
         $('#alunos').html(content);
     });
-
     $("select").change(function () {
          var str = "";
          $( "select option:selected" ).each(function() {
