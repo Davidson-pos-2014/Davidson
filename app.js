@@ -11,7 +11,6 @@ function Apagafoto(){
 	     document.getElementById("idImg").style.visibility="Hidden";
 	 }
 }
-http://rarolabs.com.br:88/alunos.json
 $(document).ready(function(){
 	document.getElementById("idImg").style.visibility="Hidden";
 	document.getElementById("idMini").style.visibility="Hidden";
